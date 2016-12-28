@@ -1,0 +1,177 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  padding: 0px;
+}
+
+/** HEADER **/
+#header-nav {
+  /* Note setting the height is what destroyed the drop down capability from working */
+  background-color: #A9A9A9;
+  border-radius: 0;
+  border: 10px;
+  border: 0;
+  width: 100%;
+  border: 10px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  border-bottom: 2px;
+  border-color: black;
+
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* BUTON */
+#menu-button:hover { /* Collapsed nav menu text */
+  margin-top: 10px;
+  margin-right: 25px;
+   border: 2px solid white;
+   background-color: transparent;
+   clear: none;
+ }
+
+ #menu-button { /* Collapsed nav menu text */
+   margin-top: 10px;
+   margin-right: 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    clear: none;
+  }
+
+#menu-button:hover .icon-bar {
+    height: 10px;
+    width: 40px;
+    background-color: white;
+  }
+
+ #menu-button .icon-bar {
+   height: 10px;
+   width: 40px;
+   background-color: #000000;
+}
+
+#num1, #num2 {
+  margin-bottom: 10px;
+}
+
+/*  HEADER DROP DOWN MENU */
+
+#nav-list {
+
+  margin: 0px;
+}
+
+#navheader {
+
+  margin: 0px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: #3d3d3d;
+  margin-top: 0px;
+  font-size: 1.4em;
+}
+
+#nav-list a > div {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.list-item {
+  border: 1px solid black;
+}
+
+#collapsable-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 0px solid transparent;
+  box-sizing: border-box
+}
+
+#header-nav > .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-sizing: border-box
+}
+
+#main-content {
+  color: black;
+  width: 100%;
+  float: left;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+.menu-item {
+  border: 0px solid black;
+  padding: 10px;
+  background-color: #A9A9A9;
+  height: 1000px;
+}
+
+#grid {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.menu-item-title {
+  font-size: 1.5em;
+}
+
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 768px) {
+  #header-nav {
+    height: 90px;
+  }
+}
+
+@media (max-width:370px){
+  .navbar-brand h1 {
+    font-size: 1.4em;
+    padding-left: 10px;
+  }
+
+}
